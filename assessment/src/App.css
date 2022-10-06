@@ -3,6 +3,7 @@ body {
   /* font-family: 'Roboto Condensed', sans-serif;
      font-family: 'Roboto Slab', serif; */
 }
+/* Main Search Section */
 .search-section {
   background-image: url('./assets/shutterstock_42474535.jpg');
   background-repeat: no-repeat;
@@ -53,4 +54,18 @@ body {
 .search-icon {
   height: 20px;
   padding-top: 13px;
+}
+/* Sitemap Section */
+.sitemap-section {
+  background-color: #E1E5EA;
+}
+.cards {
+display: flex;
+gap: 10px;
+}
+.cards-icon {
+  background-color: white;
+  height: 100px;
+  width: 60px;
+  border: 1px;
 }
