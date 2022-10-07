@@ -62,7 +62,8 @@ body {
 .cards {
   display: flex;
   gap: 50px;
-  justify-content: center;
+  justify-content:space-evenly;
+  /* justify-content: center; */
 }
 .cards-icon {
   display: flex;
@@ -88,4 +89,30 @@ body {
   font-weight: 900;
   width: 8rem;
   text-align: center;
+}
+/* Services Section */
+.services-section {
+  margin-left: 9rem;
+  margin-right: 9rem;
+}
+.title {
+  color: #1b3a61;
+  font-weight: 900;
+  font-size: 30px;
+}
+.block {
+  background-color: #1b3a61;
+  padding: 5px;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  column-gap: 17vw;
+}
+.link {
+  color:#0074c1;
+  font-weight: bold;
+  width: 16vw;
+  padding-top: 4vh;
 }
