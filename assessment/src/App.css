@@ -1,11 +1,11 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   /* font-family: 'Roboto Condensed', sans-serif;
      font-family: 'Roboto Slab', serif; */
 }
 /* Main Search Section */
 .search-section {
-  background-image: url('./assets/shutterstock_42474535.jpg');
+  background-image: url("./assets/shutterstock_42474535.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -18,7 +18,7 @@ body {
   width: 40%;
 }
 .search-text h3 {
-  font-family: 'Roboto Slab', serif;
+  font-family: "Roboto Slab", serif;
   font-size: 24px;
   font-weight: normal;
   color: #f3f6f9;
@@ -30,7 +30,7 @@ body {
   gap: 5px;
 }
 .main-search-input {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-style: italic;
   width: 350px;
@@ -38,17 +38,17 @@ body {
   padding-left: 10px;
 }
 .main-search-button {
-  border: 1px #0074C1;
-  background-color: #0074C1;
+  border: 1px #0074c1;
+  background-color: #0074c1;
   display: flex;
   gap: 5px;
   padding: 0px 20px 0px 20px;
 }
 .main-search-button p {
   color: #f3f6f9;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   font-size: 13px;
 }
 .search-icon {
@@ -57,15 +57,35 @@ body {
 }
 /* Sitemap Section */
 .sitemap-section {
-  background-color: #E1E5EA;
+  background-color: #e1e5ea;
 }
 .cards {
-display: flex;
-gap: 10px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
 }
 .cards-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  height: 100px;
-  width: 60px;
+  height: 250px;
+  width: 250px;
   border: 1px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 1px 4px 0 #c3c3c3;
+}
+.cards-icon img {
+  height: 100px;
+  width: 100px;
+  padding-top: 2rem;
+}
+.cards-text {
+  color: #1b3a61;
+  font-size: medium;
+  font-weight: 900;
+  width: 8rem;
+  text-align: center;
 }

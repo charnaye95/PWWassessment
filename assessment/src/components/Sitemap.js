@@ -5,12 +5,23 @@ import programsservices from '../assets/Programs-Icon.svg'
 import legislativefiscalimpacts from '../assets/Legislative-Icon.svg'
 function Sitemap() {
   return (
-    <div className='sitemap-section'>Sitemap
+    <div className='sitemap-section'>
       <div className='cards'>
-        <div><img src={dataresearch} className='cards-icon' alt=''></img></div>
-        <div><img src={geographymapping} className='cards-icon' alt=''></img></div>
-        <div><img src={programsservices} className='cards-icon' alt=''></img></div>
-        <div><img src={legislativefiscalimpacts} className='cards-icon' alt=''></img></div>
+        <div className='cards-icon'>
+          <img src={dataresearch} className='data-icon' alt=''></img>
+          <h5 className='cards-text'>DATA & RESEARCH</h5>
+        </div>
+        <div className='cards-icon'>
+          <img src={geographymapping} className='geography-icon' alt=''></img>
+          <h5 className='cards-text'>GEOGRAPHY & MAPPING</h5>
+        </div>
+        <div className='cards-icon'>
+          <img src={programsservices} className='programs-icon' alt=''></img>
+          <h5 className='cards-text'>PROGRAMS & SERVICES</h5>
+          </div>
+        <div className='cards-icon'><img src={legislativefiscalimpacts} className='legislative-icon' alt=''></img>
+        <h5 className='cards-text'>LEGISLATIVE FISCAL IMPACTS</h5>
+        </div>
       </div>
     </div>
   )
