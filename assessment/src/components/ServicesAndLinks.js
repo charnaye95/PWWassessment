@@ -4,7 +4,7 @@ function ServicesAndLinks() {
   return (
     <div className='services-section'>
       <p className='title'>POPULAR SERVICES AND LINKS</p>
-      <div className='block'></div>
+      <div className='services-block'></div>
       <div className='services-list'>
               <a
                 href="https://rfa.sc.gov/data-research/state-finances"
