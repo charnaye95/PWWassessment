@@ -62,6 +62,7 @@ function Updates() {
       <div className='calendar-section'>
         <p className='title'>Calendar of Events</p>
         <div className='uc-block'></div>
+        <div className='date-box'>Nov <br></br> 22</div>
       </div>
     </div>
     <button className='view-more'>VIEW MORE</button>
