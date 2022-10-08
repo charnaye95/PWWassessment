@@ -3,8 +3,7 @@ import Navbar from '../components/Navbar'
 import Search from '../components/Search'
 import Sitemap from '../components/Sitemap'
 import ServicesAndLinks from '../components/ServicesAndLinks'
-import Updates from '../components/Updates'
-import Calendar from '../components/Calendar'
+import UpdatesAndCalendar from '../components/UpdatesAndCalendar'
 import Footer from '../components/Footer'
 
 function Homepage() {
@@ -15,8 +14,7 @@ function Homepage() {
         <Search />
         <Sitemap />
         <ServicesAndLinks />
-        <Updates />
-        <Calendar />
+        <UpdatesAndCalendar />
         <Footer />
     </div>
   )
