@@ -11,7 +11,7 @@ function UpdatesAndCalendar() {
           <p className='title'>Recent Updates</p>
           <div className='uc-block'></div>
           <a
-            href="https://rfa.sc.gov/data-research/state-finances"
+            href="https://rfa.sc.gov/sites/default/files/2021-11/FY%202020%20Report%20for%20Web_0.pdf"
             className='link'
           >
             Local Government Finance
@@ -23,7 +23,7 @@ function UpdatesAndCalendar() {
             <p><b>Published:</b> Jan 2, 2020</p> <p className='grey-tag'>Updated</p>
           </div>
           <a
-            href="https://rfa.sc.gov/data-research/state-finances"
+            href="https://rfa.sc.gov/mapping/tcn"
             className='link'
           >
             Transportation Network Carrier Maps
@@ -32,7 +32,7 @@ function UpdatesAndCalendar() {
             <p><b>Published:</b> Jan 2, 2020</p> <p className='grey-tag'>New</p>
           </div>
           <a
-            href="https://rfa.sc.gov/data-research/state-finances"
+            href="https://rfa.sc.gov/sites/default/files/BEA%20Long%20Range%20General%20Fund%20Revenue%20Plan%20for%20FY%202017-18%20to%20FY%202020-21.pdf"
             className='link'
           >
             BEA Long-Range General Fund Revenue Plan for FY 2019-20 to FY 2022-23
@@ -44,7 +44,7 @@ function UpdatesAndCalendar() {
             <p><b>Published:</b> Dec 16, 2019</p> <p className='grey-tag'>Updated</p>
           </div>
           <a
-            href="https://rfa.sc.gov/data-research/state-finances"
+            href="https://rfa.sc.gov/programs-services/fiscal-analysis"
             className='link'
           >
             Budget Development
@@ -53,7 +53,7 @@ function UpdatesAndCalendar() {
             <p><b>Published:</b> Dec 16, 2019</p> <p className='grey-tag'>New</p>
           </div>
           <a
-            href="https://rfa.sc.gov/data-research/state-finances"
+            href="https://rfa.sc.gov/sites/default/files/November%202019%20General%20Fund%20Revenue%20Digest.pdf"
             className='link'
           >
             November 2019 General Fund Revenue Digest
@@ -61,7 +61,7 @@ function UpdatesAndCalendar() {
           <div className='published-text'>
             <p><b>Published:</b> Dec 13, 2019</p> <p className='grey-tag'>New</p>
           </div>
-          <button className='view-more'>VIEW MORE</button>
+          <button className='view-more'><a href='https://rfa.sc.gov/data-research'>VIEW MORE</a></button>
         </div>
         <div className='calendar-section'>
           <p className='title'>Calendar of Events</p>
@@ -147,7 +147,8 @@ function UpdatesAndCalendar() {
             <div className='date-box fourth-box'>
               <p className='month'>NOV</p>
               <p className='day'>28</p>
-              <button className='view-all-events'>VIEW ALL EVENTS</button>
+              <button className='view-all-events'>
+                <a href='https://rfa.sc.gov/calendar'>VIEW ALL EVENTS</a></button>
             </div>
 
             <div className='event-info'>
