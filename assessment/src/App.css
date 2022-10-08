@@ -16,7 +16,63 @@ button:active {
 button:disabled {
   background-color: #CCCCCC;
 }
+/* Navbar Section */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: #1b3a61;
+  width: 100%;
+  align-items: center;
+  margin: 0;
+}
+.brand {
+  display: flex;
+  column-gap: 25px;
+}
+.nav-toggle {
+  height: 17.5vh;
+  width: 4vw;
+  background-color: #0074c1;
+  color: white;
+  font-size: 10px;
+}
+.site-name {
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+.site-motto {
+  font-style: italic;
+  opacity: .75;
+  margin-top: 0;
+}
+.nav-logo {
+  width: 85px;
+  height: 85px;
+  margin-top: 20px;
+}
+.pages {
+  display: flex;
+column-gap: 20px;
+align-items: center;
+}
+.pages a {
+  color: #1b3a61;
+  text-decoration: none;
 
+}
+.nav-search {
+  border: solid 1px #0074c1;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+.searchblue {
+width: 30px;
+height: 30px;
+}
+.dropdown {
+  position: relative;
+}
 /* Main Search Section */
 .search-section {
   background-image: url("./assets/shutterstock_42474535.jpg");

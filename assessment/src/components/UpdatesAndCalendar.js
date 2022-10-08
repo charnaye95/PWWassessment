@@ -61,7 +61,9 @@ function UpdatesAndCalendar() {
           <div className='published-text'>
             <p><b>Published:</b> Dec 13, 2019</p> <p className='grey-tag'>New</p>
           </div>
-          <button className='view-more'><a href='https://rfa.sc.gov/data-research'>VIEW MORE</a></button>
+          <button className='view-more'>
+            <a href='https://rfa.sc.gov/data-research'>VIEW MORE</a>
+          </button>
         </div>
         <div className='calendar-section'>
           <p className='title'>Calendar of Events</p>
@@ -148,7 +150,8 @@ function UpdatesAndCalendar() {
               <p className='month'>NOV</p>
               <p className='day'>28</p>
               <button className='view-all-events'>
-                <a href='https://rfa.sc.gov/calendar'>VIEW ALL EVENTS</a></button>
+                <a href='https://rfa.sc.gov/calendar'>VIEW ALL EVENTS</a>
+              </button>
             </div>
 
             <div className='event-info'>
