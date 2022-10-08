@@ -92,8 +92,8 @@ body {
 }
 /* Services Section */
 .services-section {
-  margin-left: 9rem;
-  margin-right: 9rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 .title {
   color: #1b3a61;
@@ -118,10 +118,15 @@ body {
 }
 /* Updates & Calendar Section */
 .updates-calendar-section {
-  margin-left: 9rem;
-  margin-right: 9rem;
+  padding-top: 10px;
+  margin-left: 4rem;
+  margin-right: 4rem;
   display: flex;
-  column-gap: 50%;
+  justify-content: flex-start;
+  column-gap: 2vw;
+}
+.updates-section {
+  width: 37vw;
 }
 .uc-block {
   background-color: #8C6910;
@@ -151,6 +156,52 @@ border: 1px #0074c1;
 background-color: #0074c1;
 color: white;
 padding: 15px 20px 15px 20px;
-margin-left: 9rem;
-margin-right: 9rem;
+margin-left: 4rem;
+margin-right: 4rem;
+}
+.event-container {
+  display: flex;
+  gap: 30px;
+  border-bottom: 1px solid #c3c3c3;
+}
+.date-box {
+  background-color: #8C6910;
+  color: white;
+  text-align: center;
+  width: 60px;
+  height: 75px;
+  padding: 0px 1px 0px 1px;
+}
+.month {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 7px;
+}
+.day {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+.gold-tag {
+  background-color: #D2B859;
+  color: #8C6910;
+  font-weight: 900;
+  font-size: small;
+  padding: 3px;
+  border-radius: 3px;
+  width: fit-content;
+}
+.detail {
+  display: flex;
+  gap: 5px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+.detail img {
+  width: 24px;
+  height: 24px;
+}
+.detail-text {
+  margin: 0;
 }

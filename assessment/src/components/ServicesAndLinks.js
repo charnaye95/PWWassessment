@@ -52,13 +52,13 @@ function ServicesAndLinks() {
                 href="___"
                 className='link'
               >
-                Executive Budget Office <br></br> State Agency Budget Plans(Requests)
+                Executive Budget Office State Agency Budget Plans(Requests)
               </a>
               <a
                 href="___"
                 className='link'
               >
-                Executive Budget Office <br></br> State Agency Budget Plans(Requests)
+                Executive Budget Office State Agency Budget Plans(Requests)
               </a>
               </div>
     </div>
