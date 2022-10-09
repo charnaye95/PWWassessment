@@ -126,6 +126,38 @@ button:disabled {
   flex-direction: column;
   text-align: left;
 }
+.search-input-dropdown {
+  position: absolute;
+  padding: 0.75rem 1rem;
+  left: 0%;
+  top: 100%;
+  text-align: right;
+  font-size: 16px;
+  background-color: #0074c1;
+  width:27.8vw;
+  height: 5vh;
+  color: black;
+  display: flex;
+  opacity: 0;
+  transform: translateY(-10px);
+  transform: translateX(-380px);
+  transition: opacity 150ms ease-in, 200ms ease-in-out;
+}
+.dropdown > .nav-search:focus > .search-input-dropdown {
+  opacity: 1;
+}
+.nav-search-input {
+  height: 75%;
+  width: 20vw;
+}
+.dropdown-search-button {
+  background-color: #0074c1;
+  color: white;
+  width: 10vw;
+  margin-left: 10px;
+  border: solid 1px white;
+
+}
 /* Main Search Section */
 .search-section {
   background-image: url("./assets/shutterstock_42474535.jpg");

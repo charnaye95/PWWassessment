@@ -3,6 +3,7 @@ import navlogo from '../assets/RFA Logo Final.png'
 import menu from '../assets/menu.png'
 import searchblue from '../assets/searchblue.png'
 
+
 function Navbar() {
   return (
     <>
@@ -77,7 +78,16 @@ function Navbar() {
           <a href='https://rfa.sc.gov/page/about-us'><h4>ABOUT US</h4></a>
           <a href='https://rfa.sc.gov/calendar'><h4>EVENTS</h4></a>
           <a href='https://rfa.sc.gov/boards-committees'><h4>BOARDS & COMMITTEES</h4></a>
-          <button className='nav-search'><img src={searchblue} className='searchblue' alt='blue magnifying glass'></img></button>
+          <div className='dropdown'>
+            <button className='nav-search'>
+              <img src={searchblue} className='searchblue' alt='blue magnifying glass'></img>
+              <div className='search-input-dropdown'>
+                <input type='text' className='nav-search-input' placeholder='Enter search term'></input>
+                <button className='dropdown-search-button'>SEARCH</button>
+              </div>
+            </button>
+          </div>
+
         </div>
       </div>
       <div className='services-block'></div>
