@@ -17,5 +17,5 @@ What I Would Do Differently Next Time
 - I would check out the libraries beforehand for animations or used Tailwind or Bootstrap as the CSS framework, to see if it could have minimized my time. 
 <br>
 
-    I dove right into coding because I knew time was being considered. What took a lot of time for me was styling (padding, margin, and links wise) trying to get it matched up so close with the style guide. I think I maybe stuck to the style guide too strictly. And so next time I think I would have been looser in that. 
+   I dove right into coding because I knew time was being considered. What took a lot of time for me was styling (padding, margin, and links wise) trying to get it matched up so close with the style guide. I think I maybe stuck to the style guide too strictly. And so next time I think I would have been looser in that. 
 
