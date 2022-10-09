@@ -149,11 +149,7 @@ function UpdatesAndCalendar() {
             <div className='date-box fourth-box'>
               <p className='month'>NOV</p>
               <p className='day'>28</p>
-              <button className='view-all-events'>
-                <a href='https://rfa.sc.gov/calendar'>VIEW ALL EVENTS</a>
-              </button>
             </div>
-
             <div className='event-info'>
               <p className='event-title'><b>Board of Economic Advisors Meeting</b></p>
               <div className='event-details'>
@@ -168,6 +164,9 @@ function UpdatesAndCalendar() {
                 <div class='detail'>
                   <img src={contact} alt=''></img>
                   <p className='detail-text'>(803) 734-2265</p>
+                  <button className='view-all-events'>
+                    <a href='https://rfa.sc.gov/calendar'>VIEW ALL EVENTS</a>
+                  </button>
                 </div>
               </div>
             </div>
