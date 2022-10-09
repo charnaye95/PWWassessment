@@ -74,7 +74,7 @@ function UpdatesAndCalendar() {
               <p className='day'>22</p>
             </div>
             <div className='event-info'>
-              <p className='gold-tag'>Updated</p>
+              <p className=''>Updated</p>
               <p className='event-title'><b>Board of Economic Advisors Meeting</b></p>
               <div className='event-details'>
                 <div class='detail'>
