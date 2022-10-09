@@ -24,41 +24,41 @@ function Navbar() {
                   <div className='dropdown-data-div'>
                     <p>DATA & RESEARCH</p>
                     <div className='uc-block'></div>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Economy</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>State Finances</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Education</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Healthcare</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Local Government</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Population and Demographics</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>State Register Calculations</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Presentations</a>
+                    <a href='https://rfa.sc.gov/data-research/state-finances' className='dropdown-right-link'>Economy</a>
+                    <a href='https://rfa.sc.gov/data-research/state-finances' className='dropdown-right-link'>State Finances</a>
+                    <a href='https://rfa.sc.gov/data-research/education' className='dropdown-right-link'>Education</a>
+                    <a href='https://rfa.sc.gov/data-research/healthcare' className='dropdown-right-link'>Healthcare</a>
+                    <a href='https://rfa.sc.gov/data-research/local-government' className='dropdown-right-link'>Local Government</a>
+                    <a href='https://rfa.sc.gov/data-research/population-demographics/census-state-data-centers' className='dropdown-right-link'>Population and Demographics</a>
+                    <a href='https://rfa.sc.gov/data-research/state-finances' className='dropdown-right-link'>State Register Calculations</a>
+                    <a href='https://rfa.sc.gov/data-research/state-finances' className='dropdown-right-link'>Presentations</a>
                   </div>
                   <div className='dropdown-geography-div'>
                     <p>GEOGRAPHY & MAPPING</p>
                     <div className='uc-block'></div>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Transportation Carrier Network (Uber)</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>SC Real Time Network</a>
+                    <a href='https://rfa.sc.gov/mapping/tcn' className='dropdown-right-link'>Transportation Carrier Network (Uber)</a>
+                    <a href='https://rfa.sc.gov/programs-services/geodetic/rtnstatus' className='dropdown-right-link'>SC Real Time Network</a>
                     <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>SC State GIS</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Maps</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Interactive Mapping</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Statewide Aerial Imagery</a>
+                    <a href='https://rfa.sc.gov/data-services/mapping' className='dropdown-right-link'>Maps</a>
+                    <a href='https://rfa.sc.gov/programs-services/precinct-demographics/jurisdictional-mapping' className='dropdown-right-link'>Interactive Mapping</a>
+                    <a href='https://rfa.sc.gov/programs-services/geodetic/statewide-aerial-imagery' className='dropdown-right-link'>Statewide Aerial Imagery</a>
                   </div>
                   <div className='dropdown-programs-div'>
                     <p>PROGRAMS & SERVICES</p>
                     <div className='uc-block'></div>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Precinct Demographics and Redistricting</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>State 911 Program</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Data Services and Online Solutions</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Geodetic Survey</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Fiscal Analysis</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>2020 Census</a>
+                    <a href='https://rfa.sc.gov/programs-services/precinct-demographics' className='dropdown-right-link'>Precinct Demographics and Redistricting</a>
+                    <a href='https://rfa.sc.gov/programs-services/state-9-1-1-program' className='dropdown-right-link'>State 911 Program</a>
+                    <a href='https://rfa.sc.gov/programs-services/data-services-online-solutions' className='dropdown-right-link'>Data Services and Online Solutions</a>
+                    <a href='https://rfa.sc.gov/programs-services/geodetic' className='dropdown-right-link'>Geodetic Survey</a>
+                    <a href='https://rfa.sc.gov/programs-services/fiscal-analysis' className='dropdown-right-link'>Fiscal Analysis</a>
+                    <a href='https://www.census.gov/library/stories/state-by-state/south-carolina-population-change-between-census-decade.html' className='dropdown-right-link'>2020 Census</a>
                   </div>
                   <div className='dropdown-legislative-div'>
                     <p>LEGISLATIVE FISCAL IMPACTS</p>
                     <div className='uc-block'></div>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Current General Assembly Session</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Previous General Assembly Session</a>
-                    <a href='https://rfa.sc.gov/boards-committees' className='dropdown-right-link'>Forms</a>
+                    <a href='https://rfa.sc.gov/impacts' className='dropdown-right-link'>Current General Assembly Session</a>
+                    <a href='https://rfa.sc.gov/impacts' className='dropdown-right-link'>Previous General Assembly Session</a>
+                    <a href='https://rfa.sc.gov/impacts' className='dropdown-right-link'>Forms</a>
                   </div>
 
                 </div>
