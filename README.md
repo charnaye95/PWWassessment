@@ -11,6 +11,7 @@ Notes along the way:
 - Conducted research on the dropdowns and transitions.
 - Double and triple checked the app to style guide.
 - Wrote media queries in the CSS for responsiveness of mobile and tablet devices.
+- Wrote README
 - Deployed Site
 
 What I Would Do Differently Next Time
