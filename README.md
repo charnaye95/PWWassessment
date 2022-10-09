@@ -15,7 +15,7 @@ Notes along the way:
 - Deployed Site
 
 What I Would Do Differently Next Time
-- I would check out the libraries beforehand for animations or used Tailwind or Bootstrap as the CSS framework, to see if it could have minimized my time.I worked about 15-18 hours on the assessment.
+- I would check out the libraries beforehand for animations or used Tailwind or Bootstrap as the CSS framework, to see if it could have minimized my time. I worked about 15-18 hours on the assessment.
 
 <br>
 
